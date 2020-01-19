@@ -1,0 +1,55 @@
+/* Create your own animation by following this code pattern below */
+
+/* Fade Animation */
+[data-san=fade] {
+    opacity: 0;
+    transition-duration: 1s;
+}
+.fade {
+    opacity: 1
+}
+
+/* SlideLeft Animation */
+[data-san=slideLeft] {
+    opacity: 0;
+    transform: translateX(150px);
+    transition-duration: 1s;
+}
+.slideLeft {
+    opacity: 1;
+    transform: translateX(0)
+}
+
+/* SlideRight Animation */
+[data-san=slideRight] {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition-duration: 1s;
+}
+.slideRight {
+    opacity: 1;
+    transform: translateX(0)
+}
+
+/* SlideTop Animation */
+[data-san=slideTop] {
+    opacity: 0;
+    transform: translateY(100px);
+    transition-duration: 1s;
+}
+.slideTop {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+
+/* Delay */
+[data-san-delay="200"] {
+    transition-delay: .2s;
+} 
+[data-san-delay="400"] {
+    transition-delay: .4s;
+} 
+[data-san-delay="600"] {
+    transition-delay: .6s;
+} 

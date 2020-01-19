@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Scroll Animation Lbrary</title>
+    <link rel="stylesheet" href="../scroll-animation.css">
+    <style>
+        .box {
+            position: relative;
+            width: 25%;
+            height: 275px;
+            background: #02b3e4;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .section {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="box" data-san="slideRight"></div>
+        <div class="box" data-san="fade"></div>
+        <div class="box" data-san="slideLeft"></div>
+        <div class="box" data-san="slideRight"></div>
+        <div class="box" data-san="fade"></div>
+        <div class="box" data-san="slideLeft"></div>
+        <div class="box" data-san="slideRight"></div>
+        <div class="box" data-san="fade"></div>
+        <div class="box" data-san="slideLeft"></div>
+        <div class="box" data-san="slideRight"></div>
+        <div class="box" data-san="fade"></div>
+        <div class="box" data-san="slideLeft"></div>
+    </section>
+    
+    <script src="../scroll-animation.js"></script>
+</body>
+</html>

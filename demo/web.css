@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden
+}
+
+.home {
+    position: relative;
+    background: url("https://images.pexels.com/photos/2906663/pexels-photo-2906663.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=1366&w=768");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #02b3e4;
+    opacity: .5;
+}
+
+.contact {
+    position: relative;
+    background: url("https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.contact .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5;
+}
